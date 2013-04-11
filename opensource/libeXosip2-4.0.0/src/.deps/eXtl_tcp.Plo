@@ -1,0 +1,312 @@
+eXtl_tcp.lo: eXtl_tcp.c eXosip2.h ../exosip-config.h \
+ /usr/include/string.h /usr/include/features.h \
+ /usr/include/bits/predefs.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-32.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h \
+ /usr/include/xlocale.h /usr/include/stdio.h /usr/include/bits/types.h \
+ /usr/include/bits/typesizes.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/select.h \
+ /usr/include/bits/select.h /usr/include/bits/sigset.h \
+ /usr/include/bits/time.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/alloca.h \
+ /usr/include/sys/time.h /usr/include/sys/socket.h /usr/include/sys/uio.h \
+ /usr/include/bits/uio.h /usr/include/bits/socket.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h /usr/include/netinet/in.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h /usr/include/bits/in.h \
+ /usr/include/arpa/inet.h /usr/include/netdb.h /usr/include/rpc/netdb.h \
+ /usr/include/bits/netdb.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osip2/osip.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_const.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osip2/osip_time.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_parser.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_message.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_headers.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_port.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_list.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_uri.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_header.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_accept.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_content_type.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_accept_encoding.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_accept_language.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_alert_info.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_call_info.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_allow.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_content_length.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_authentication_info.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_authorization.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_call_id.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_contact.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_from.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_content_disposition.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_content_encoding.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_cseq.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_error_info.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_mime_version.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_proxy_authenticate.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_www_authenticate.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_proxy_authentication_info.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_proxy_authorization.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_record_route.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_route.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_to.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_via.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_body.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osip2/osip_fifo.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osip2/osip_mt.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osip2/osip_dialog.h \
+ ../include/eXosip2/eXosip.h ../include/eXosip2/eX_setup.h \
+ ../include/eXosip2/eX_register.h ../include/eXosip2/eX_call.h \
+ /opt/DaTang_M/WorkSpace/framework/include/osipparser2/sdp_message.h \
+ ../include/eXosip2/eX_options.h ../include/eXosip2/eX_subscribe.h \
+ ../include/eXosip2/eX_refer.h ../include/eXosip2/eX_message.h \
+ ../include/eXosip2/eX_publish.h eXtransport.h \
+ /usr/include/openssl/opensslv.h jpipe.h /usr/include/unistd.h \
+ /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/fcntl.h /usr/include/bits/fcntl.h \
+ /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/netinet/tcp.h
+
+eXosip2.h:
+
+../exosip-config.h:
+
+/usr/include/string.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/predefs.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-32.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.4.3/include/stddef.h:
+
+/usr/include/xlocale.h:
+
+/usr/include/stdio.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/usr/lib/gcc/i486-linux-gnu/4.4.3/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/sys/types.h:
+
+/usr/include/time.h:
+
+/usr/include/endian.h:
+
+/usr/include/bits/endian.h:
+
+/usr/include/bits/byteswap.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/bits/select.h:
+
+/usr/include/bits/sigset.h:
+
+/usr/include/bits/time.h:
+
+/usr/include/sys/sysmacros.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/alloca.h:
+
+/usr/include/sys/time.h:
+
+/usr/include/sys/socket.h:
+
+/usr/include/sys/uio.h:
+
+/usr/include/bits/uio.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/bits/sockaddr.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/stdint.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/in.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/netdb.h:
+
+/usr/include/rpc/netdb.h:
+
+/usr/include/bits/netdb.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osip2/osip.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_const.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osip2/osip_time.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_parser.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_message.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_headers.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_port.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_list.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_uri.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_header.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_accept.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_content_type.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_accept_encoding.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_accept_language.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_alert_info.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_call_info.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_allow.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_content_length.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_authentication_info.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_authorization.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_call_id.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_contact.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_from.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_content_disposition.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_content_encoding.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_cseq.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_error_info.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_mime_version.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_proxy_authenticate.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_www_authenticate.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_proxy_authentication_info.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_proxy_authorization.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_record_route.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_route.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_to.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/headers/osip_via.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/osip_body.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osip2/osip_fifo.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osip2/osip_mt.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osip2/osip_dialog.h:
+
+../include/eXosip2/eXosip.h:
+
+../include/eXosip2/eX_setup.h:
+
+../include/eXosip2/eX_register.h:
+
+../include/eXosip2/eX_call.h:
+
+/opt/DaTang_M/WorkSpace/framework/include/osipparser2/sdp_message.h:
+
+../include/eXosip2/eX_options.h:
+
+../include/eXosip2/eX_subscribe.h:
+
+../include/eXosip2/eX_refer.h:
+
+../include/eXosip2/eX_message.h:
+
+../include/eXosip2/eX_publish.h:
+
+eXtransport.h:
+
+/usr/include/openssl/opensslv.h:
+
+jpipe.h:
+
+/usr/include/unistd.h:
+
+/usr/include/bits/posix_opt.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/getopt.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/errno.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/netinet/tcp.h:

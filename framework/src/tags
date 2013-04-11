@@ -1,0 +1,76 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g$/;"	m
+HANDLE_REQUEST	sdp_handle_request.c	/^function_index HANDLE_REQUEST[SIP_MAXSIZE] = $/;"	v
+LOG_DEBUG	sip_server.c	56;"	d	file:
+LOG_ERR	sip_server.c	54;"	d	file:
+LOG_INFO	sip_server.c	53;"	d	file:
+LOG_PERROR	sip_server.c	2;"	d	file:
+LOG_WARNING	sip_server.c	55;"	d	file:
+PROG_NAME	sip_server.c	36;"	d	file:
+PROG_VER	sip_server.c	37;"	d	file:
+SIP_CFLAGS	Makefile	/^SIP_CFLAGS=-I..\/include\/$/;"	m
+SIP_LIBS	Makefile	/^SIP_LIBS=-L..\/lib -leXosip2 -losip2 -losipparser2  -lpthread -pedantic $/;"	m
+SIP_MAXSIZE	sdp_handle_request.h	9;"	d
+SYSLOG_FACILITY	sip_server.c	39;"	d	file:
+UA_STRING	sip_server.c	38;"	d	file:
+_GNU_SOURCE	sip_server.c	32;"	d	file:
+_HANDLE_REQUEST_H_	sip_handle_request.h	2;"	d
+_SDP_HANDLE_REQUEST_H	sdp_handle_request.h	2;"	d
+_SIP_SYSTEM_H_	sip_system.h	2;"	d
+_function_index	sdp_handle_request.h	/^typedef struct _function_index{$/;"	s
+auth	sip_server.c	/^	int auth;$/;"	m	struct:regparam_t	file:
+context_eXosip	sip_server.c	/^struct eXosip_t *context_eXosip;$/;"	v	typeref:struct:eXosip_t
+expiry	sip_server.c	/^	int expiry;$/;"	m	struct:regparam_t	file:
+fun	sdp_handle_request.h	/^	handle_sdp_request *fun,	 $/;"	m	struct:_function_index
+fun_main	sip_main.cpp	/^int fun_main (int argc, char *argv[])$/;"	f
+function_index	sdp_handle_request.h	/^}function_index; $/;"	t	typeref:struct:_function_index
+handle_request_invite	sip_handle_request.c	/^succeed_type handle_request_invite(struct eXosip_t *eXosip, struct eXosip_event *event)$/;"	f
+handle_request_message	sip_handle_request.c	/^succeed_type handle_request_message(struct eXosip_t *eXosip, struct eXosip_event *event)$/;"	f
+handle_request_register	sip_handle_request.c	/^succeed_type handle_request_register(struct eXosip_t *eXosip , struct eXosip_event *event )$/;"	f
+handle_request_subscribe	sip_handle_request.c	/^succeed_type handle_request_subscribe(struct eXosip_t *eXosip, struct eXosip_event *event)$/;"	f
+handle_sip_request	sdp_handle_request.h	/^typedef succeed_type (handle_sip_request)(struct sip_message_t *, struct sip_message_t *);$/;"	t
+invite_code_cmd_func	sdp_handle_request.c	/^succeed_type invite_code_cmd_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+invite_data_broadcast_func	sdp_handle_request.c	/^succeed_type invite_data_broadcast_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+invite_define_data_func	sdp_handle_request.c	/^succeed_type invite_define_data_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+invite_email_func	sdp_handle_request.c	/^succeed_type invite_email_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+invite_ppt_voice_func	sdp_handle_request.c	/^succeed_type invite_ppt_voice_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+invite_txt_msg_func	sdp_handle_request.c	/^succeed_type invite_txt_msg_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+invite_urgent_data_func	sdp_handle_request.c	/^succeed_type invite_urgent_data_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+invite_voice_broadcast_func	sdp_handle_request.c	/^succeed_type invite_voice_broadcast_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+invite_voice_func	sdp_handle_request.c	/^succeed_type invite_voice_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+key	sdp_handle_request.h	/^	char *key,$/;"	m	struct:_function_index
+main	sip_server.c	/^int main (int argc, char *argv[])$/;"	f
+message_data_cache_notify_func	sdp_handle_request.c	/^succeed_type message_data_cache_notify_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_data_cache_obtain_func	sdp_handle_request.c	/^succeed_type message_data_cache_obtain_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_data_info_query_func	sdp_handle_request.c	/^succeed_type message_data_info_query_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_data_obtain_notify_func	sdp_handle_request.c	/^succeed_type message_data_obtain_notify_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_data_status_update_func	sdp_handle_request.c	/^succeed_type message_data_status_update_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_info_modify_func	sdp_handle_request.c	/^succeed_type message_info_modify_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_mp_dereg_func	sdp_handle_request.c	/^succeed_type message_mp_dereg_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_mp_reg_func	sdp_handle_request.c	/^succeed_type message_mp_reg_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_route_del_func	sdp_handle_request.c	/^succeed_type message_route_del_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_route_query_func	sdp_handle_request.c	/^succeed_type message_route_query_func(sip_message_t *sip_request, sip_message_t *sip_response)$/;"	f
+message_route_update_func	sdp_handle_request.c	/^succeed_type message_route_update_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+message_service_verify_func	sdp_handle_request.c	/^succeed_type message_service_verify_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+regid	sip_server.c	/^	int regid;$/;"	m	struct:regparam_t	file:
+register_dereg_func	sdp_handle_request.c	/^succeed_type register_dereg_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+register_proc	sip_server.c	/^static void *register_proc (void *arg)$/;"	f	file:
+register_reg_func	sdp_handle_request.c	/^succeed_type register_reg_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+regparam_t	sip_server.c	/^typedef struct regparam_t {$/;"	s	file:
+regparam_t	sip_server.c	/^} regparam_t;$/;"	t	typeref:struct:regparam_t	file:
+subscribe_status_subscribe_func	sdp_handle_request.c	/^succeed_type subscribe_status_subscribe_func(sip_message_t *sip_request , sip_message_t *sip_response)$/;"	f
+succeed_type	sip_system.h	/^}succeed_type;$/;"	t	typeref:enum:succeed_type_type
+succeed_type_failed	sip_system.h	/^	succeed_type_failed = -1,$/;"	e	enum:succeed_type_type
+succeed_type_succeed	sip_system.h	/^	succeed_type_succeed,$/;"	e	enum:succeed_type_type
+succeed_type_type	sip_system.h	/^typedef enum succeed_type_type$/;"	g
+switch_to_function	sdp_handle_request.c	/^succeed_type switch_to_function(sip_message_t *request , sip_message_t *answer)$/;"	f
+syslog_wrapper	sip_server.c	/^syslog_wrapper (int a, const char *fmt, ...)$/;"	f	file:
+syslog_wrapper	sip_server.c	60;"	d	file:
+syslog_wrapper	sip_server.c	62;"	d	file:
+usage	sip_server.c	/^static void usage (void)$/;"	f	file:

@@ -1,0 +1,21 @@
+<xml>
+<database des="attribute of database">
+	<ip></ip>
+	<port><port>
+	<username></username>
+	<password></password>
+</database>
+<center des="attribute of center web">
+	<ip></ip>
+	<port></port>
+	<username></username>
+	<password></password>
+</center>
+<sip des="attribute of sip and name">
+	<ip></ip>
+	<port></port>
+	<name></name>
+	<T1 des="the basic clock time"></T1>
+	<event_sleep des="the block time of wait event"></event_sleep>
+</sip>
+</xml>
